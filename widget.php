@@ -8,8 +8,6 @@ Author: Pixelpanic
 Author URI: http://webegin.co/
 License: MIT
 */
-?>
-<?php
 
 //Get Weather for the widget
 
