@@ -234,11 +234,11 @@ function widget($args, $instance) {
    //Print result
 
     echo "<link href=\"/wp-content/themes/reader/weather.css\" rel=\"stylesheet\">
-            <div class=\"wea-widget\" style=\"background-image: url('../images/wea/". $WeatherCode . ".jpg');\">
+            <div class=\"wea-widget\" style=\"background-image: url('/wp-content/themes/reader/images/wea/". $WeatherCode . ".jpg');\">
 			<h3>Hong Kong</h3>";
     echo "<p class=\"wea-week\">" . date('D') . "</p><br>" ;
     echo "<p class=\"wea-date\">" . date('j, F Y')."</p><br>";
-    echo "<p class=\"wea-temp\">"$Temperature . "℃"."</p><br>";
+    echo "<p class=\"wea-temp\">" . $Temperature ."</p><br>";
 
 }
 }
